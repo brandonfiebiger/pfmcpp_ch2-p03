@@ -118,82 +118,82 @@ bool isTrue(int num1, int num2)
  2)
  */
 
- void runFast(int speed, int duration)
- {
+void runFast(int speed, int duration)
+{
     ignoreUnused(speed, duration);
- }
+}
 
 /*
  3)
  */
 
- int addTwo(int numToAdd) 
- {
+int addTwo(int numToAdd) 
+{
     return numToAdd + 2;
- }
+}
 
 /*
  4)
  */
 
- int addFiftyAndMultiplyByFive(int num)
- {
+int addFiftyAndMultiplyByFive(int num)
+{
     return num + 50 * 5;
- }
+}
 
 /*
  5)
  */
 
- void takeDogOnWalk(int dog, int speed)
- {
+void takeDogOnWalk(int dog, int speed)
+{
     ignoreUnused(dog, speed);
- }
+}
 
 /*
  6)
  */
 
- float divideNumberByAnother(float num1, float num2)  
- {
+float divideNumberByAnother(float num1, float num2)  
+{
     return num1/num2;
- }
+}
 
 /*
  7)
  */
 
- void goSwimming(int swimmingPool, double waterTemp)
- {
+void goSwimming(int swimmingPool, double waterTemp)
+{
     ignoreUnused(swimmingPool, waterTemp);
- }
+}
 
 /*
  8)
  */
 
- void callMyFriend(int friendsPhoneNumber, int duration)
- {
+void callMyFriend(int friendsPhoneNumber, int duration)
+{
     ignoreUnused(friendsPhoneNumber, duration);
- }
+}
 
 /*
  9)
  */
 
- void rideHorse(int horse, double color) 
- {
+void rideHorse(int horse, double color) 
+{
     ignoreUnused(horse, color);
- }
+}
 
 /*
  10)
  */
 
- void eatApple(char appleType, int amount)
- {
+void eatApple(char appleType, int amount)
+{
     ignoreUnused(appleType, amount);
- }
+}
 
 int main()
 {
