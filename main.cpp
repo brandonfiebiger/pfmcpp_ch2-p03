@@ -110,8 +110,8 @@ bool rentACar(int rentalDuration, int carType = 0)  //function declaration with 
 
 bool isTrue(int num1, int num2)
 {
-ignoreUnused(num1, num2); FIXME fix indentation
-return true;
+  ignoreUnused(num1, num2); 
+  return true;
 }
 
 /*
@@ -154,7 +154,7 @@ return true;
  6)
  */
 
- float divideNumberByAnother(int num1, int num2) FIXME what happened to floats and doubles?
+ float divideNumberByAnother(float num1, float num2)  
  {
    return num1/num2;
  }
@@ -163,7 +163,7 @@ return true;
  7)
  */
 
- void goSwimming(int swimmingPool, int waterTemp) FIXME what happened to floats and doubles?
+ void goSwimming(int swimmingPool, double waterTemp)
  {
    ignoreUnused(swimmingPool, waterTemp);
  }
@@ -181,7 +181,7 @@ return true;
  9)
  */
 
- void rideHorse(int horse, int color) FIXME what happened to floats and doubles?
+ void rideHorse(int horse, double color) 
  {
    ignoreUnused(horse, color);
  }
@@ -216,16 +216,16 @@ int main()
     takeDogOnWalk(30, 50);
     
     //6)
-    divideNumberByAnother(14, 50);
+    divideNumberByAnother(14.3432f, 50.34234f);
     
     //7)
-    goSwimming(1, 3);
+    goSwimming(1, 3.42342);
     
     //8)
     callMyFriend(4565184, 1);
     
     //9)
-    rideHorse(1, 2);
+    rideHorse(1, 2432.432423);
     
     //10)
     eatApple('a', 44);
