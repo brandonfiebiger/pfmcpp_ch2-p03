@@ -110,8 +110,8 @@ bool rentACar(int rentalDuration, int carType = 0)  //function declaration with 
 
 bool isTrue(int num1, int num2)
 {
-  ignoreUnused(num1, num2); 
-  return true;
+    ignoreUnused(num1, num2); 
+    return true;
 }
 
 /*
@@ -120,7 +120,7 @@ bool isTrue(int num1, int num2)
 
  void runFast(int speed, int duration)
  {
-   ignoreUnused(speed, duration);
+    ignoreUnused(speed, duration);
  }
 
 /*
@@ -129,7 +129,7 @@ bool isTrue(int num1, int num2)
 
  int addTwo(int numToAdd) 
  {
-   return numToAdd + 2;
+    return numToAdd + 2;
  }
 
 /*
@@ -138,7 +138,7 @@ bool isTrue(int num1, int num2)
 
  int addFiftyAndMultiplyByFive(int num)
  {
-   return num + 50 * 5;
+    return num + 50 * 5;
  }
 
 /*
@@ -147,7 +147,7 @@ bool isTrue(int num1, int num2)
 
  void takeDogOnWalk(int dog, int speed)
  {
-   ignoreUnused(dog, speed);
+    ignoreUnused(dog, speed);
  }
 
 /*
@@ -156,7 +156,7 @@ bool isTrue(int num1, int num2)
 
  float divideNumberByAnother(float num1, float num2)  
  {
-   return num1/num2;
+    return num1/num2;
  }
 
 /*
@@ -165,7 +165,7 @@ bool isTrue(int num1, int num2)
 
  void goSwimming(int swimmingPool, double waterTemp)
  {
-   ignoreUnused(swimmingPool, waterTemp);
+    ignoreUnused(swimmingPool, waterTemp);
  }
 
 /*
@@ -174,7 +174,7 @@ bool isTrue(int num1, int num2)
 
  void callMyFriend(int friendsPhoneNumber, int duration)
  {
-   ignoreUnused(friendsPhoneNumber, duration);
+    ignoreUnused(friendsPhoneNumber, duration);
  }
 
 /*
@@ -183,7 +183,7 @@ bool isTrue(int num1, int num2)
 
  void rideHorse(int horse, double color) 
  {
-   ignoreUnused(horse, color);
+    ignoreUnused(horse, color);
  }
 
 /*
@@ -192,7 +192,7 @@ bool isTrue(int num1, int num2)
 
  void eatApple(char appleType, int amount)
  {
-   ignoreUnused(appleType, amount);
+    ignoreUnused(appleType, amount);
  }
 
 int main()
